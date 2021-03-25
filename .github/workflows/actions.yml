@@ -10,4 +10,4 @@ jobs:
         with: 
           who-to-greet: World #this is the variable and the value of the variable
       - name: Log greeting time
-        run: echo "{{ steps.greet.outputs.time }}"
+        run: echo "${{ steps.greet.outputs.time }}"
