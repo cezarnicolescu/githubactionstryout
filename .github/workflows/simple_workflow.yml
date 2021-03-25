@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: echo a simple string
         run: echo "hello from Github"
-      -name: multiline script
+      - name: multiline script
         run: |
           node -v
           npm -v
